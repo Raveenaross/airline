@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="registration.css">
+    <title>book flights</title>
+</head>
+
+<body>
+    <header>
+        <h1>Fly High Airlines</h1>
+        <nav class="d-flex">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="login.jsp">Welcome</a></li>
+                <li class="breadcrumb-item"><a href="booking.html">Search Flights</a></li>
+                <li class="breadcrumb-item "><a href="registration.html">Book Flights</a></li>
+            </ol>
+        </nav>
+    </header>
+    <!-- Background image -->
+    <div class="bg-image">
+        <div class="mask">
+            <div class="container-sm">
+                <div class="d-flex justify-content-center align-items-center h-100">
+
+                    <div class="center-form">
+
+                        <form class="justify-content-center align-items-center h-100 " action="reserveServlet"
+                            method="post">
+
+                            <div class="row">
+                                <label class="form-label" for="name">Name</label>
+                                <input class="form-control" type="text" class="form-control" name="name"
+                                    placeholder="enter name here">
+                            </div>
+
+                            <div class="row">
+                                <label class="form-label" for="phone">Phone no</label>
+                                <input type="tel" class="form-control" name="phone" placeholder="enter number here">
+                            </div>
+
+                            <div class="row">
+                                <label class="form-label" for="adults">Adults (18+)</label>
+                                <select class="form-control" name="adults">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="1">6</option>
+                                    <option value="2">7</option>
+                                    <option value="3">8</option>
+                                    <option value="4">9</option>
+                                    <option value="5">10</option>
+                                </select>
+                            </div>
+
+                            <div class="row">
+                                <label class="form-label" for="children">Children (0-17)</label>
+                                <select class="form-control" name="children">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="1">6</option>
+                                    <option value="2">7</option>
+                                    <option value="3">8</option>
+                                    <option value="4">9</option>
+                                    <option value="5">10</option>
+                                </select>
+                            </div>
+
+                            <div class="row">
+                                <label class="form-label" for="travel_class">Travel class</label>
+                                <select class="form-control" name="travel_class">
+                                    <option value="First">First</option>
+                                    <option value="Business">Business</option>
+                                    <option value="Economy">Economy</option>
+                                </select>
+                            </div>
+
+                            <div class="row">
+                                <label class="form-label" for="destination">Destination</label>
+                                <input class="form-control" type="text" name="destination"
+                                    placeholder="enter your destination">
+                            </div>
+
+                            <div class="row">
+                                <label class="form-label" for="dept_date">Departure date</label>
+                                <input class="form-control" type="date" name="dept_date"
+                                    placeholder="enter  departure date">
+                            </div>
+
+                            <div class="row">
+                                <label id="datetime" class="form-label" for="dept_time">Departure time</label>
+                                <input class="form-control" type="time" name="dept_time"
+                                    placeholder="enter departure time"></input>
+                            </div>
+                            <br>
+                            <button class="btn btn-warning" type="submit">Book flight</button>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br><br>
+        <footer>
+            <h5><b>Copyright &copy; 2023 flyhigh.com</b><br><b> All rights reserved</b></h5>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+            crossorigin="anonymous"></script>
+
+</body>
+
+</html>

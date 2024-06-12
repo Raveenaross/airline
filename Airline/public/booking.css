@@ -1,0 +1,37 @@
+h1 {
+	text-align: center;
+	background: linear-gradient(to right, #182848, #4b6cb7);
+	color: #07beb8;
+	font-family: Georgia, serif;
+	font-size: 50px;
+}
+
+.mask {
+	background: linear-gradient(0.2deg, rgb(51, 204, 255) 4.8%, rgb(51, 102, 255) 85.5%);
+	background-size: cover;
+	opacity: 0.8;
+	height: 50vh;
+}
+
+label[for^="place"] {
+	font-family: 'Franklin Gothic Medium';
+	color: #2ec4b6;
+	text-align: left;
+}
+
+body {
+	background-color: rgb(51, 102, 255);
+	height: 100vh;
+}
+
+.nav {
+	height: 80px;
+	background-color: paleturquoise;
+	box-sizing: content-box;
+}
+
+h5 {
+	background: linear-gradient(to right, #ffdde1, #ee9ca7);
+	text-align: center;
+	font-size: 30px;
+}

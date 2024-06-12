@@ -1,0 +1,121 @@
+* {
+    font-family: Georgia, serif;
+}
+
+header {
+    background: linear-gradient(to right, #182848, #4b6cb7);
+    border: 30px solid white;
+}
+
+h1 {
+    text-align: center;
+    color: #07beb8;
+}
+
+nav {
+    font-size: 30px;
+    justify-content: center;
+    border: 20px solid pink;
+}
+
+a {
+    color: #07beb8;
+}
+
+a:hover {
+    color: #ffd8be;
+}
+
+.bg-image {
+    background-image: url('/image3.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+
+form {
+    opacity: 1;
+    background-color: white;
+}
+
+.mask {
+    background-color: #4169E1;
+    background-size: cover;
+    opacity: 0.9;
+    height: 100vh;
+}
+
+body {
+    background-color: #4169E1;
+}
+
+.center-form {
+    background-color: white;
+    border: 30px solid #ec0868;
+    opacity: 1;
+    border-radius: 30px;
+    padding: 1em;
+    align-items: center;
+}
+
+
+label[for^="name"] {
+    font-size: 20px;
+    color: #e2294f;
+
+}
+
+label[for^="phone"] {
+    font-size: 20px;
+    color: #e2294f;
+
+}
+
+label[for^="adults"] {
+    font-size: 20px;
+    color: #e2294f;
+
+}
+
+label[for^="children"] {
+    font-size: 20px;
+    color: #e2294f;
+}
+
+label[for^="travel_class"] {
+    font-size: 20px;
+    color: #e2294f;
+
+}
+
+label[for^="destination"] {
+    font-size: 20px;
+    color: #e2294f;
+
+}
+
+label[for^="dept_date"] {
+    font-size: 20px;
+    color: #e2294f;
+
+}
+
+label[for^="dept_time"] {
+    font-size: 20px;
+    color: #e2294f;
+}
+
+input[type="text"] {
+    background-color: white;
+}
+
+h5 {
+    background: linear-gradient(to right, #ffdde1, #ee9ca7);
+    text-align: center;
+    font-size: 30px;
+    color: #03045e;
+}
+
+button {
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="booking.css">
+
+	<title>search flights</title>
+
+</head>
+
+<body>
+
+	<h1>Fly High Airlines</h1>
+	<hr>
+	<div class="nav">
+		<nav class="breadcrumb  is-large  is-centered  has-succeeds-separator  has-background-primary-light">
+			<ul>
+				<li><a href="login.jsp"><b>Welcome</b></a></li>
+				<li><a href="booking.html"><b>Search Flights</b></a></li>
+				<li><a href="registration.jsp"><b>Book Flights</b></a></li>
+			</ul>
+		</nav>
+	</div>
+	<hr>
+	<br>
+	<div class="mask">
+		<div class="img">
+			<div class="container min-vh-100  d-flex justify-content-center align-items-center">
+				<div class="box">
+					<form action="bookServlet" method="post">
+						<label for="place" class="label is-large">Show flights</label>
+						<input class="input is-primary is-rounded" type="text" name="place">
+						<br><br>
+						<button
+							class="button  has-text-primary-dark  has-background-primary-light is-hovered is-rounded  "
+							type="submit">Search</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<h5>Copyright &copy; 2023 flyhigh.com<br> All rights reserved</h5>
+	</footer>
+
+</body>
+
+</html>
