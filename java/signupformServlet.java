@@ -27,7 +27,7 @@ public class signupformServlet extends HttpServlet {
 	        	
 	        	Class.forName("com.mysql.cj.jdbc.Driver"); // driver name --> java class
 
-	           conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/log","root","Macro25**");
+	           conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/log","psw","usm");
 	            PreparedStatement stmt = conn.prepareStatement("INSERT INTO newuser(username,mail,password) VALUES(?,?,?)");
 	            stmt.setString(1, username);
 	            stmt.setString(2, mail);
