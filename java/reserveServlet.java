@@ -55,7 +55,7 @@ public class reserveServlet extends HttpServlet {
 			{
 				// CONNECT TO MYSQL DATABASE
 				Class.forName("com.mysql.cj.jdbc.Driver");
-                conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/reservation_system","root","Macro25**");
+                conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/reservation_system","psw","usm");
 				stmt = conn.prepareStatement("INSERT INTO reservations(name,phone,adults,children,travel_class,destination,departure_date,departure_time) VALUES(?,?,?,?,?,?,?,?)");
 		        stmt.setString(1, name);
 		        stmt.setString(2, phone);
