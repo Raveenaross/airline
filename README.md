@@ -1,5 +1,9 @@
 # Airline Reservation System
 
+## Output Screen
+
+![Airline_reservation](https://github.com/Raveenaross/airline/assets/166907857/e2e4a12f-3b59-4c7b-8a8a-364c8ef3e5b6)
+
 A simple airline reservation system implemented using HTML, CSS, Servlets, and MySQL database.
 
 ## Overview
@@ -25,7 +29,4 @@ This project aims to provide a basic airline reservation system where users can 
 
 1. **Clone the repository:**
 
-## Output Screen
-
-![Airline_reservation](https://github.com/Raveenaross/airline/assets/166907857/e2e4a12f-3b59-4c7b-8a8a-364c8ef3e5b6)
 
